@@ -1,4 +1,4 @@
-Min me/redovisa
+me/redovisa
 ======================
 
-Här skriver jag nått trevligt om repot, och mig.
+Info about the repo.
