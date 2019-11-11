@@ -16,12 +16,17 @@ v1.0.1 (2019-11-8)
 
 * Added byline with picture and text, a new header image and a page for testing. The page is in both navbars.
 
-v1.0.2 (2019-11-9)
+v1.0.2 v1.0.3 (2019-11-9)
 ------------------------
 
 * Finished the initial CSS, the website is now functional. The page works on the student server.
 
-v1.0.3 (2019-11-11)
+v1.0.4 (2019-11-11)
 ------------------------
 
 * Finished the initial CSS, the website is now functional. The page works on the student server.
+
+v1.0.5 (2019-11-11)
+------------------------
+
+* Finished KMOM1 and this is the product that will be turned in.
