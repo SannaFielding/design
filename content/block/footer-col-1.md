@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Om webbplatsen
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Denna sida är skapad för kursen [design](https://dbwebb.se/kurser/design) HT-19.

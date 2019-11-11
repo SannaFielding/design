@@ -3,7 +3,7 @@
 <img src="image/SannaFielding.jpg?width=100" alt="Sanna Fielding">
 <figcaption>
 
-<p>Sanna Fielding</p>
+Sanna Fielding
 
 </figcaption>
 </figure>
