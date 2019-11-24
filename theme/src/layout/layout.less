@@ -1,0 +1,246 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+@mainColor: #909090;
+@backgroundAndAccentColor: #a9a9a9;
+@blockColor: #cfcfcf;
+
+/**
+ * General layout
+ */
+.wrap-all {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: @blockColor;
+}
+
+.row {
+    width: 100%;
+}
+
+.inner-wrap-header {
+    background-color: @mainColor;
+    min-height: 7em;
+}
+
+.region-header-col-1 {
+    display: inline;
+    float: left;
+}
+
+.region-header-col-2 {
+    display: inline;
+    float: right;
+}
+
+.region-header-col-3 {
+    display: inline;
+    float: right;
+}
+
+.site-logo {
+    display: none;
+}
+
+.my-navbar {
+    overflow: hidden;
+    text-align: center;
+}
+
+.my-navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.my-navbar li a {
+    text-decoration: none;
+}
+
+.outer-wrap-flash {
+    border-right: 1em solid @mainColor;
+    border-left: 1em solid @mainColor;
+    background-color: @mainColor;
+}
+
+.region-flash img {
+    width: 100%;
+    height: auto;
+}
+
+.outer-wrap-breadcrumb {
+    background-color: @mainColor;
+}
+
+.breadcrumb-list ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 1em;
+}
+
+.breadcrumb-list li {
+    display: inline;
+}
+
+.breadcrumb-list li::after {
+    content: " >> ";
+}
+
+.outer-wrap-flash-message {
+    width: 100%;
+    overflow: auto;
+    display: block;
+    background-color: @mainColor;
+    min-height: 3em;
+}
+
+.flashmessage-icon {
+    display: inline;
+}
+
+.flashmessage.info p {
+    display: inline;
+}
+
+.region-flash-message {
+    box-sizing: border-box;
+    width: auto;
+    float: left;
+    margin: 0 1em 0 1em;
+    padding: 1em;
+    border: 5px solid @backgroundAndAccentColor;
+}
+
+.outer-wrap-main {
+    border: 1em solid @mainColor;
+    display: block;
+}
+
+.region-main {
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.next {
+    float: right;
+}
+
+.previous {
+    float: left;
+}
+
+.region-main.has-sidebar-right.has-sidebar {
+    display: inline-block;
+    width: 70%;
+}
+
+.wrap-sidebar.region-sidebar-right.has-sidebar-right.has-sidebar {
+    display: inline-block;
+    width: 30%;
+    padding: 1em;
+    float: right;
+    box-sizing: border-box;
+}
+
+.wrap-sidebar.region-sidebar-right.has-sidebar-right.has-sidebar .block {
+    border: 5px solid @backgroundAndAccentColor;
+    padding: 1em;
+}
+
+.wrap-sidebar.region-sidebar-right.has-sidebar-right.has-sidebar h4 {
+    background-color: @backgroundAndAccentColor;
+    margin-top: 0;
+    padding: 5px;
+}
+
+.region-main.has-sidebar-left.has-sidebar {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 70%;
+    padding: 1em;
+}
+
+.wrap-sidebar.region-sidebar-left.has-sidebar-left.has-sidebar {
+    display: inline-block;
+    width: 30%;
+    padding: 1em;
+    float: left;
+    box-sizing: border-box;
+}
+
+.block.toc {
+    overflow: auto;
+    border: 5px solid @backgroundAndAccentColor;
+    padding: 1em;
+}
+
+.block.toc h4 {
+    background-color: @backgroundAndAccentColor;
+    margin-top: 0;
+    padding: 5px;
+}
+
+.article {
+    overflow: auto;
+    min-height: 30em;
+    font-size: 1em;
+    color: black;
+}
+
+.article h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.author-byline {
+    border: 5px solid @backgroundAndAccentColor;
+    overflow: auto;
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+}
+
+.region-footer {
+    width: 100%;
+    overflow: auto;
+    background-color: @mainColor;
+}
+
+.footer-column {
+    overflow: auto;
+    display: inline;
+    float: left;
+    box-sizing: border-box;
+    width: 33%;
+    height: auto;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.footer-column-2 {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.site-footer {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+figcaption p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

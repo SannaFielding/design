@@ -1,0 +1,32 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: black;
+@bgColorBody: auto;
+@colorBody: black;
+@fontFamilyHtml: "Arial", Helvetica, sans-serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    font-family: @fontFamilyHtml;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    min-height: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    text-shadow: 1px 0 0 transparent;
+}
+
+a:hover {
+    text-shadow: 1px 0 0 black;
+}

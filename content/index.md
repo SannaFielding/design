@@ -12,7 +12,7 @@ views:
 ---
 Min me-sida i kursen design
 =========================
-[FIGURE src="image/SannaAndMarlon.jpg?w=350" class="right" caption="Bild på mig och min son Marlon"]
+[FIGURE src="image/SannaAndMarlon.jpg" class="right" caption="Bild på mig och min son Marlon"]
 
 Jag heter Sanna Fielding och är 27år gammal. Jag bor i Trelleborg, där jag delvis växt upp, med min man Tim, vår son Marlon och hund Khaleesi. Vi har bott här i 1,5år nu, innan dess bodde vi i Karlskrona. Jag flyttade till Karlskrona 2011 för att plugga spelprogrammering på BTH, det gjorde även Tim och det var så vi träffades. Spelprogrammering var inte helt rätt för mig, så efter två år bestämde jag mig för att jobba och plugga lite annat i hopp om att hitta rätt. Jag hade aldrig väntat mig att jag tillsist skulle komma tillbaka till programmering på BTH, men här är jag nu och det känns väldigt bra!
 
