@@ -1,0 +1,35 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: black;
+@bgColorBody: auto;
+@colorBody: black;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    height: 100%;
+}
+
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    min-height: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    text-shadow: 1px 0 0 transparent;
+}
+
+a:hover {
+    text-shadow: 1px 0 0 black;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

@@ -1,6 +1,11 @@
 Revision history
 ======================
 
+v3.0.0 (2019-12-03)
+-------------------------
+
+* Finished KMOM03. Added another stylesheet for KMOM03. Added vertical and typographic grids. Made webpage more responsive.
+
 v2.0.0 (2019-11-24)
 -------------------------
 
